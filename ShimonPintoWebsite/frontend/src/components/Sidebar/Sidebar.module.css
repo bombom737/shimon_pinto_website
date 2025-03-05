@@ -4,6 +4,9 @@
     background-color: white;
     border-right: 1px solid rgba(28,105,149, 0.1);
     flex-shrink: 0;
+    position: fixed;
+    overflow-y: auto; 
+    z-index: 1000; 
 }
 
 .header {

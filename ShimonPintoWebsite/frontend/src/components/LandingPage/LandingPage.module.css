@@ -1,6 +1,11 @@
 .landingPage {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #fafafa;
+}
+
+.container {
+    flex-direction: column;
+    margin-left: 250px;
 }

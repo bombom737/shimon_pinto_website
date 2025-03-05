@@ -3,7 +3,81 @@ import styles from './LandingPage.module.css'
 function LandingPage() {
   return (
     <div className={styles.landingPage}>
-      <h1>Hello</h1>
+      <div className={styles.container}>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+        <h1>This is the best landing page ever!</h1>
+
+      </div>
     </div>
   )
 }
