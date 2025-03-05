@@ -1,26 +1,21 @@
-import "./Sidebar.css"
-import { SidebarData } from '../SidebarData/SidebarData'
+import Link from "next/link";
+import { SidebarData } from "../SidebarData/SidebarData";
+import styles from "./Sidebar.module.css";
 
-function Sidebar() {
+export default function Sidebar() {
   return (
-    <div className="sidebar">
-      <h1 className="header">Shimon</h1>
-      <ul className="sidebar-list">
-      {SidebarData.map((val, key) =>{
-        return (
-          <li 
-            key={key} 
-            onClick={() => console.log(`Navigate to ${val.title}`)}
-            className="row"
-            >
-            <div id="icon">{val.icon}</div>
-            <div id="title">{val.title}</div>
+    <div className={styles.sidebar}>
+      <h1 className={styles.header}>Shimon</h1>
+      <ul className={styles.sidebarList}>
+        {SidebarData.map((val, key) => (
+          <li key={key} className={styles.row}>
+            <div className={styles.icon}>{val.icon}</div>
+            <Link href={val.link} className={styles.title}>
+              {val.title}
+            </Link>
           </li>
-        )
-      })}
+        ))}
       </ul>
     </div>
-  )
+  );
 }
-
-export default Sidebar
