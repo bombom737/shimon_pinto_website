@@ -1,85 +1,24 @@
-import styles from './LandingPage.module.css'
+import styles from './LandingPage.module.css';
 
-function LandingPage() {
+function LandingPageComponent() {
   return (
     <div className={styles.landingPage}>
       <div className={styles.container}>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-        <h1>This is the best landing page ever!</h1>
-
+        <section id="home">
+          <h1>Home Section</h1>
+        </section>
+        <section id="about">
+          <h1>About Section</h1>
+        </section>
+        <section id="portfolio">
+          <h1>Portfolio Section</h1>
+        </section>
+        <section id="contact">
+          <h1>Contact Section</h1>
+        </section>
       </div>
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPageComponent;
