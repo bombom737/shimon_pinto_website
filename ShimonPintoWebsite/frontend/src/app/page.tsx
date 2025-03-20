@@ -1,15 +1,12 @@
-import LandingPageComponent from "../components/LandingPage/LandingPageComponent";
+import LandingPage from "../components/LandingPage/LandingPage";
 import "./globals.css";
-import styles from "../components/LandingPage/LandingPage.module.css";
 
-export default function LandingPage() {
+
+export default function MainPage() {
   return (
-    <div className={styles.landingPage}>
-      {/* <div className={styles.sidebar}>
-        <Sidebar />
-      </div> */}
-      <div className={styles.content}>
-        <LandingPageComponent />
+    <div className='flex w-[100vw] h-full bg-[#fafafa]'>
+      <div>
+        <LandingPage />
       </div>
     </div>
   );
