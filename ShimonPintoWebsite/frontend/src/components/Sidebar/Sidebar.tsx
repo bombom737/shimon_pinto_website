@@ -11,6 +11,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
+import { handleScroll } from "@/hooks/handleScroll";
 
 interface SidebarProps {
   landingRef: RefObject<HTMLDivElement>;
@@ -40,15 +41,6 @@ export function AppSidebar({ landingRef, aboutRef }: SidebarProps) {
       icon: Settings,
     },
   ];
-
-  function handleScroll(ref: RefObject<HTMLDivElement>) {
-    if (ref?.current) {
-      window.scrollTo({
-        top: ref.current.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  }
 
   return (
     <Sidebar className="!bg-[--sidebar-background] !text-[--sidebar-foreground] border border-[--sidebar-border]">
