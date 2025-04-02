@@ -1,4 +1,5 @@
-import { Home, Inbox, Search, Settings } from "lucide-react"
+import { Home, Inbox, Search, Settings } from "lucide-react";
+import { RefObject } from "react";
 
 import {
   Sidebar,
@@ -9,36 +10,48 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
+} from "@/components/ui/sidebar";
 
-// Menu items.
-const items = [
-  {
-    title: "Home",
-    url: "#",
-    icon: Home,
-  },
-  {
-    title: "About",
-    url: "#",
-    icon: Inbox,
-  },
-  {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
-  },
-]
+interface SidebarProps {
+  landingRef: RefObject<HTMLDivElement>;
+  aboutRef: RefObject<HTMLDivElement>;
+}
 
-export function AppSidebar() {
+export function AppSidebar({ landingRef, aboutRef }: SidebarProps) {
+  const items = [
+    {
+      title: "Home",
+      ref: landingRef,
+      icon: Home,
+    },
+    {
+      title: "About",
+      ref: aboutRef,
+      icon: Inbox,
+    },
+    {
+      title: "Search",
+      ref: null,
+      icon: Search,
+    },
+    {
+      title: "Settings",
+      ref: null,
+      icon: Settings,
+    },
+  ];
+
+  function handleScroll(ref: RefObject<HTMLDivElement>) {
+    if (ref?.current) {
+      window.scrollTo({
+        top: ref.current.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  }
+
   return (
     <Sidebar className="!bg-[--sidebar-background] !text-[--sidebar-foreground] border border-[--sidebar-border]">
-
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel imageSrc="https://i.imgur.com/fO7nB6H.jpeg"></SidebarGroupLabel>
@@ -46,11 +59,12 @@ export function AppSidebar() {
             <SidebarMenu>
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton className="text-[--sidebar-primary] hover:bg-[--sidebar-accent]" asChild>
-                    <a href={item.url}>
-                      <item.icon />
-                      <span>{item.title}</span>
-                    </a>
+                  <SidebarMenuButton
+                    className="text-[--sidebar-primary] hover:bg-[--sidebar-accent]"
+                    onClick={() => handleScroll(item.ref!)}
+                  >
+                    <item.icon />
+                    <span>{item.title}</span>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
@@ -59,5 +73,5 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
     </Sidebar>
-  )
+  );
 }

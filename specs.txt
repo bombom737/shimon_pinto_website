@@ -1,0 +1,17 @@
+what is lacking?  
+
+1: about page needs polish and finalization
+    does dad want to add contact info? ask him
+    is the text good? can be changed later
+    is the design satisfactory? look at other examples
+
+2: website needs to be responsive
+
+3: accessability features need to be looked after
+
+4: portfolio page for dads works
+    portfolio page will be the biggest page in the website, allowing users to see dads works and text about the works
+
+5: contact page? if dad wants it ill add it
+
+6: news page? will neeed to be regularly updated

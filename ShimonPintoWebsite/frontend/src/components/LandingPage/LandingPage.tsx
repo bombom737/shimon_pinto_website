@@ -1,8 +1,8 @@
-;function LandingPage() {
+function LandingPage() {
   return (
-    <div className="flex w-[100vw] h-full bg-[#fafafa]">
-      <div className="flex-col h-full w-full bg-[url('/shimon-landing-page.jpg')] bg-contain bg-no-repeat bg-left !p-10">
-        <div className='absolute text-white top-1/2 translate-y-[-50%] !pl-[40px] !pr-[40px]'>
+    <div className="flex w-[100vw] h-[100vh] bg-[#fafafa] overflow-x-hidden">
+      <div className="flex-col h-full w-[100vw] bg-[url('/shimon-landing-page.jpg')] bg-cover bg-no-repeat bg-left !p-10">
+        <div className='relative text-white top-1/2 translate-y-[-50%] !pl-[40px] !pr-[40px]'>
           <div className='!p-10 flex flex-col gap-6'>
             <h1 className='text-4xl text-[#2ba6ec]'>Hello, I'm</h1>
             <span className='text-7xl drop-shadow-2xl font-bold font-[Playfair_Display]'>Shimon Pinto</span>
