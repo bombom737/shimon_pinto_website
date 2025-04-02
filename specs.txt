@@ -15,3 +15,25 @@ what is lacking?
 5: contact page? if dad wants it ill add it
 
 6: news page? will neeed to be regularly updated
+
+UX/UI
+
+what is the goal of the website?
+
+for users to learn about my dad and see his works
+
+users should have a way to *CONTACT* my dad / maybe buys paintings?
+                            call to action
+
+contact should be as easy as possible
+        whatsapp symbol that takes you to a chat with dad
+
+ABOUT PAGE  
+
+short and sweet, waterfall, 
+
+check if dad has a picture in a kibbutz with a sweet landscape behind him, or a picture of dad painting
+
+HOME PAGE
+
+text inside card with opacity
