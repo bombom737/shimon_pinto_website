@@ -1,8 +1,10 @@
 import React from 'react';
 
+// bg-[url('/shimon-about-page.jpg')]
+
 function AboutPage() {
   return (
-    <div className="flex bg-[url('/shimon-about-page.jpg')] bg-cover bg-no-repeat w-[100vw] h-[100vh] bg-[#fafafa] flex-row items-center justify-left !p-10">
+    <div className="flex bg-transparent bg-cover bg-no-repeat w-[100vw] h-[100vh] flex-row items-center justify-left !p-10">
       <div className="flex flex-row w-full max-w-6xl items-start space-x-10">
         {/* <div className="w-1/2">
           <div className="!pt-5">

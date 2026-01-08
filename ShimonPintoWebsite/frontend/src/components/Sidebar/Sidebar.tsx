@@ -1,4 +1,4 @@
-import { Home, Inbox, Search, Settings } from "lucide-react";
+import { Home, Inbox, BriefcaseBusiness, Contact, } from "lucide-react";
 import { RefObject } from "react";
 
 import {
@@ -16,9 +16,11 @@ import { handleScroll } from "@/hooks/handleScroll";
 interface SidebarProps {
   landingRef: RefObject<HTMLDivElement>;
   aboutRef: RefObject<HTMLDivElement>;
+  portfolioRef: RefObject<HTMLDivElement>;
+  contactRef: RefObject<HTMLDivElement>;
 }
 
-export function AppSidebar({ landingRef, aboutRef }: SidebarProps) {
+export function AppSidebar({ landingRef, aboutRef, portfolioRef, contactRef }: SidebarProps) {
   const items = [
     {
       title: "Home",
@@ -31,14 +33,14 @@ export function AppSidebar({ landingRef, aboutRef }: SidebarProps) {
       icon: Inbox,
     },
     {
-      title: "Search",
-      ref: null,
-      icon: Search,
+      title: "Portfolio",
+      ref: portfolioRef,
+      icon: BriefcaseBusiness,
     },
     {
-      title: "Settings",
-      ref: null,
-      icon: Settings,
+      title: "Contact",
+      ref: contactRef,
+      icon: Contact
     },
   ];
 
